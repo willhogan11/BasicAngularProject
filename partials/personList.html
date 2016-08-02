@@ -1,3 +1,12 @@
-<html>
-	<h1>Test Brackets Commit</h1>
-</html>
+<section class="container">
+	<h1 class="jumbotron">The Hogan Family</h1>
+	<div style="margin-bottom: 10px" ng-repeat="item in persons">
+		<div style="border: 1px solid black; border-radius: 5px; padding: 5px; width: 400px;">
+			<img ng-src = "images/{{item.imageName}}.jpg" alt="Photo of {{ item.name }}">
+			<h2>Name: {{ item.name }}</h2>
+			<p>Age: {{ item.age }}</p>
+			<p>Address: {{ item.address }}</p>
+			<p>Favourite Colour: {{ item.favColour }}</p>
+		</div>
+	</div>
+</section>
