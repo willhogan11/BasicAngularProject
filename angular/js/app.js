@@ -6,9 +6,9 @@ myApp.config(["$routeProvider", function($routeProvider){
 			templateUrl: "partials/personlist.html",
 			controller: "ListController"
 		}).
-		when("/personDetails", {
+		when("/personDetails/:itemId", {
 			templateUrl: "partials/personDetails.html",
-		controller: "DetailsController"
+			controller: "DetailsController"
 		}).
 		otherwise({
 			redirectTo: "/personlist"

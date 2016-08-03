@@ -1,12 +1,19 @@
-<section style="margin-left: 30px;">
+<section class="personList">
 	<h1 class="jumbotron">The Hogan Family</h1>
-	<div style="margin-bottom: 10px" ng-repeat="item in persons">
-		<div style="border: 1px solid black; border-radius: 5px; padding: 5px; width: 400px;">
-			<img ng-src="images/{{item.imageName}}.jpg" alt="Photo of {{ item.name }}">
-			<h2>Name: {{ item.name }}</h2>
-			<p>Age: {{ item.age }}</p>
-			<p>Address: {{ item.address }}</p>
-			<p>Favourite Colour: {{ item.favColour }}</p>
-		</div>
+	<div style="margin-bottom: 10px; width: 400px;" ng-repeat="item in persons">
+		<a href="#/personDetails/{{persons.indexOf(item)}}">
+			<div style="border: 1px solid black;
+						border-radius: 5px;
+						padding: 5px;
+						a:link {
+						text-decoration: none;
+						}
+						a:hover {
+						text-decoration: none;
+						}">
+				<img ng-src="images/{{item.imageName}}.jpg" alt="Photo of {{ item.name }}">
+				<h2>{{ item.name }}</h2>
+			</div>
+		</a>
 	</div>
 </section>

@@ -7,8 +7,9 @@ personController.controller("ListController", ["$scope", "$http", function($scop
 }]);
 
 
-personController.controller("DetailsController", ["$scope", "$http", function($scope, $http){
+personController.controller("DetailsController", ["$scope", "$http", "$routeParams", function($scope, $http, $routeParams){
 	$http.get("js/person.json").success(function(data){
 		$scope.persons = data;
+	  	$scope.whichItem = $routeParams.itemId;
 	});
 }]);
