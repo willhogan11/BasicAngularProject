@@ -4,34 +4,39 @@
 		"imageName": "will",
 		"age": 39,
 		"address": "Galway",
-		"favColour": "blue"
+		"favColour": "blue",
+		"info": "Will is the Father of 3 kids and Husband to Gillian"
 	},
 	{
 		"name": "Gillian Hogan",
 		"imageName": "gill",
 		"age": 36,
 		"address": "Galway",
-		"favColour": "green"
+		"favColour": "green",
+		"info": "Gillian is the Mother of 3 Kids and Wife to Will"
 	},
 	{
 		"name": "Chris Hogan",
 		"imageName": "chris",
 		"age": 8,
 		"address": "Galway",
-		"favColour": "green"
+		"favColour": "green",
+		"info": "Chris is the Eldest of the Hogan children"
 	},
 	{
 		"name": "Olivia Hogan",
 		"imageName": "olivia",
 		"age": 7,
 		"address": "Galway",
-		"favColour": "teal"
+		"favColour": "teal",
+		"info": "Olivia is second eldest of the Hogan children"
 	},
 	{
 		"name": "Ruairí Hogan",
 		"imageName": "ruairí",
 		"age": 3,
 		"address": "Galway",
-		"favColour": "grey"
+		"favColour": "grey",
+		"info": "Ruairí is youngest of the Hogan children"
 	}
 ]
