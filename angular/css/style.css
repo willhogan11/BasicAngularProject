@@ -1,3 +1,22 @@
-.personList {
+.personContainer {
 	margin-left: 30px;
+}
+
+.personList {
+	margin-bottom: 10px;
+	width: 400px;
+}
+
+.personItem {
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow: 2px 2px 20px black;
+	padding: 5px;
+	width: 400px;
+}
+
+a:hover, a:visited, a:link, a:active {
+	text-decoration: none !important;
+	border: none;
+	color: black
 }

@@ -1,16 +1,8 @@
-<section class="personList">
+<section class="personContainer">
 	<h1 class="jumbotron">The Hogan Family</h1>
-	<div style="margin-bottom: 10px; width: 400px;" ng-repeat="item in persons">
+	<div class="personList" ng-repeat="item in persons">
 		<a href="#/personDetails/{{persons.indexOf(item)}}">
-			<div style="border: 1px solid black;
-						border-radius: 5px;
-						padding: 5px;
-						a:link {
-						text-decoration: none;
-						}
-						a:hover {
-						text-decoration: none;
-						}">
+			<div class="personItem">
 				<img ng-src="images/{{item.imageName}}.jpg" alt="Photo of {{ item.name }}">
 				<h2>{{ item.name }}</h2>
 			</div>
