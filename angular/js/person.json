@@ -1,42 +1,42 @@
 [
 	{
-		"name": "Will Hogan",
-		"imageName": "will",
+		"name": "John Doe",
+		"imageName": "John",
 		"age": 39,
 		"address": "Galway",
 		"favColour": "blue",
-		"info": "Will is the Father of 3 kids and Husband to Gillian"
+		"info": "John is the Father of 3 kids and Husband"
 	},
 	{
-		"name": "Gillian Hogan",
-		"imageName": "gill",
+		"name": "Jane Doe",
+		"imageName": "Jane",
 		"age": 36,
 		"address": "Galway",
 		"favColour": "green",
-		"info": "Gillian is the Mother of 3 Kids and Wife to Will"
+		"info": "Jane is the Mother of 3 Kids and Wife to John"
 	},
 	{
-		"name": "Chris Hogan",
-		"imageName": "chris",
+		"name": "Jake Doe",
+		"imageName": "Jake",
 		"age": 8,
 		"address": "Galway",
 		"favColour": "green",
-		"info": "Chris is the Eldest of the Hogan children"
+		"info": "Jake is the Eldest of the Doe children"
 	},
 	{
-		"name": "Olivia Hogan",
-		"imageName": "olivia",
+		"name": "Jenny Doe",
+		"imageName": "Jenny",
 		"age": 7,
 		"address": "Galway",
 		"favColour": "teal",
-		"info": "Olivia is second eldest of the Hogan children"
+		"info": "Jenny is second eldest of the children"
 	},
 	{
-		"name": "Ruairí Hogan",
-		"imageName": "ruairí",
+		"name": "Jude Doe",
+		"imageName": "Jude",
 		"age": 3,
 		"address": "Galway",
 		"favColour": "grey",
-		"info": "Ruairí is youngest of the Hogan children"
+		"info": "Jude is youngest of the Doe children"
 	}
 ]
